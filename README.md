@@ -3,7 +3,7 @@
 * **Autor**: Carlos Córdoba
 * **Licencia**: Creative Commons de [Atribución - No Comercial - Compartir Igual](http://creativecommons.org/licenses/by-nc-sa/2.5/co/)
 
-## Introducción
+## Introducción a Python
 
 * [01. Numeros y listas](http://nbviewer.ipython.org/github/ccordoba12/curso-python-2015/blob/master/Introduccion/01.%20Numeros%20y%20listas.ipynb)
 * [02. Cadenas, tuplas y diccionarios](http://nbviewer.ipython.org/github/ccordoba12/curso-python-2015/blob/master/Introduccion/02.%20Cadenas%2C%20tuplas%20y%20diccionarios.ipynb)
