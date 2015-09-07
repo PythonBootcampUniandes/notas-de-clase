@@ -20,3 +20,4 @@
 * [03. Graficas](http://nbviewer.ipython.org/github/ccordoba12/curso-python-2015/blob/master/Sistemas%20Dinamicos/03.%20Graficas.ipynb)
 * [04. Una simulacion mas realista](http://nbviewer.ipython.org/github/ccordoba12/curso-python-2015/blob/master/Sistemas%20Dinamicos/04.%20Una%20simulacion%20mas%20realista.ipynb)
 * [05. Una simulacion mas precisa](http://nbviewer.ipython.org/github/ccordoba12/curso-python-2015/blob/master/Sistemas%20Dinamicos/05.%20Una%20simulacion%20mas%20precisa.ipynb)
+* [06. Movimiento en dos dimensiones](http://nbviewer.ipython.org/github/ccordoba12/curso-python-2015/blob/master/Sistemas%20Dinamicos/06.%20Movimiento%20en%20dos%20dimensiones.ipynb)
