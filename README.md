@@ -11,6 +11,7 @@
 * [04. Estructuras de Control](http://nbviewer.ipython.org/github/ccordoba12/curso-python-2015/blob/master/Introduccion/04.%20Estructuras%20de%20Control.ipynb)
 * [05. Clases](http://nbviewer.ipython.org/github/ccordoba12/curso-python-2015/blob/master/Introduccion/05.%20Clases.ipynb)
 * [06. Importar librerias](http://nbviewer.ipython.org/github/ccordoba12/curso-python-2015/blob/master/Introduccion/06.%20Importar%20librerias.ipynb)
+* [07. Proyectos](http://nbviewer.ipython.org/github/ccordoba12/curso-python-2015/blob/master/Introduccion/07.%20Proyectos.ipynb)
 
 ## Sistemas dinámicos
 
