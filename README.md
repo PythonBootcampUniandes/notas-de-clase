@@ -13,6 +13,11 @@
 * [06. Importar librerias](http://nbviewer.ipython.org/github/ccordoba12/curso-python-2015/blob/master/Introduccion/06.%20Importar%20librerias.ipynb)
 * [07. Proyectos](http://nbviewer.ipython.org/github/ccordoba12/curso-python-2015/blob/master/Introduccion/07.%20Proyectos.ipynb)
 
+## Módulos científicos
+
+* [01. Numpy](http://nbviewer.ipython.org/github/ccordoba12/curso-python-2015/blob/master/Modulos%20cientificos/01.%20Numpy.ipynb)
+* [02. Matplotlib](http://nbviewer.ipython.org/github/ccordoba12/curso-python-2015/blob/master/Modulos%20cientificos/02.%20Matplotlib.ipynb)
+
 ## Sistemas dinámicos
 
 * [01. Algo de Fisica](http://nbviewer.ipython.org/github/ccordoba12/curso-python-2015/blob/master/Sistemas%20Dinamicos/01.%20Algo%20de%20Fisica.ipynb)
