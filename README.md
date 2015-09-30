@@ -17,6 +17,9 @@
 
 * [01. Numpy](http://nbviewer.ipython.org/github/ccordoba12/curso-python-2015/blob/master/Modulos%20cientificos/01.%20Numpy.ipynb)
 * [02. Matplotlib](http://nbviewer.ipython.org/github/ccordoba12/curso-python-2015/blob/master/Modulos%20cientificos/02.%20Matplotlib.ipynb)
+* [03. Pandas](http://nbviewer.ipython.org/github/ccordoba12/curso-python-2015/blob/master/Modulos%20cientificos/Pandas/03.%20Pandas.ipynb)
+  - [Exercises 1](http://nbviewer.ipython.org/github/ccordoba12/curso-python-2015/blob/master/Modulos%20cientificos/Pandas/Exercises-1.ipynb)
+  - [Exercises 2](http://nbviewer.ipython.org/github/ccordoba12/curso-python-2015/blob/master/Modulos%20cientificos/Pandas/Exercises-2.ipynb)
 
 ## Sistemas dinámicos
 
