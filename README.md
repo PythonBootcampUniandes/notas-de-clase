@@ -20,6 +20,9 @@
 * [03. Pandas](http://nbviewer.ipython.org/github/ccordoba12/curso-python-2015/blob/master/Modulos%20cientificos/Pandas/03.%20Pandas.ipynb)
   - [Exercises 1](http://nbviewer.ipython.org/github/ccordoba12/curso-python-2015/blob/master/Modulos%20cientificos/Pandas/Exercises-1.ipynb)
   - [Exercises 2](http://nbviewer.ipython.org/github/ccordoba12/curso-python-2015/blob/master/Modulos%20cientificos/Pandas/Exercises-2.ipynb)
+  - [Exercises 3](http://nbviewer.ipython.org/github/ccordoba12/curso-python-2015/blob/master/Modulos%20cientificos/Pandas/Exercises-3.ipynb)
+  - [Exercises 4](http://nbviewer.ipython.org/github/ccordoba12/curso-python-2015/blob/master/Modulos%20cientificos/Pandas/Exercises-4.ipynb)
+* [04. Otros módulos](http://nbviewer.ipython.org/github/ccordoba12/curso-python-2015/blob/master/Modulos%20cientificos/04.%20Otros modulos.ipynb)
 
 ## Sistemas dinámicos
 
