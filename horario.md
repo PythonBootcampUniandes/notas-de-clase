@@ -18,4 +18,23 @@
 4:30    -4:40 | Solucion Ejercicio #5 | Edgar Margffoy
 4:40          | Empieza Tarea #1|
 
-Edgar Margffoy : OpenCV
+## Dia 1 - Abril 29 (Sabado) ###
+
+ Hora |  Que | Quien 
+:---- | ----- | ---: | 
+9-10 | **Programacion Orientada a Objetos** | Carlos Cordoba
+10     -10:20 | Ejercicio #6  |
+10:20  -10:30 | Solucion Ejercicio #6 | MC Remolina
+10:30  -11:30 | **Pandas (Estadistica)** | Carlos Cordoba
+11:30  -12:00 | Ejercicio #7 |
+12:00  -1:00 | Almuerzo |
+1:00  -1:10 | Solucion Ejercicio #7 | Juan Barbosa
+1:10  -2:00 | **Scikit Learn (Machine Learning)** | Jaime Forero
+2:00    - 2:30 | Ejercicio #8 |
+2:30    -2:40 | Solucion Ejercicio #8 | MC Remolina
+2:40    -3:00 | Receso |
+3:00    -4:00 | **OpenCV (Vision Artifical)** | Edgar Margffoy
+4:00    -4:30 | Ejercicio #9  |
+4:30    -4:40 | Solucion Ejercicio #9 | Edgar Margffoy
+4:40    -5:00 | Cierre | Jaime Forero
+
