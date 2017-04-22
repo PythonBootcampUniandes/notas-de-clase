@@ -18,7 +18,7 @@
 4:30    -4:40 | Solucion Ejercicio #5 | Edgar Margffoy
 4:40          | Empieza Tarea #1|
 
-## Dia 1 - Abril 29 (Sabado) ###
+## Dia 2 - Abril 30 (Sabado) ###
 
  Hora |  Que | Quien 
 :---- | ----- | ---: | 
