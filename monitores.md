@@ -8,5 +8,6 @@
 | German Chaparro |X|X|X|X|
 | Camila García |X|X||X|
 | Stephannie Jiménez|X||X|X|
+| Sergio Hernandez |X|X|X|X|
 
 X=confirmado
