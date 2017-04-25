@@ -9,5 +9,6 @@
 | Camila García |X|X||X|
 | Stephannie Jiménez|||X||
 | Sergio Hernandez |X|X|X|X|
-
+|Rafael Laverde |X|X|X|X|
+|Gonzalo Pena-Castellanos|X|X|X|X|
 X=confirmado
