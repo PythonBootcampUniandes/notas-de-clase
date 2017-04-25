@@ -6,7 +6,7 @@
 | Sebastian Ulloa |X|X|X|X|
 | Christian Poveda |X|X|||
 | German Chaparro |X|X|X|X|
-| Camila García |X|X||X|
+| Camila García ||X|X|X|
 | Stephannie Jiménez|||X||
 | Sergio Hernandez |X|X|X|X|
 |Rafael Laverde |X|X|X|X|
