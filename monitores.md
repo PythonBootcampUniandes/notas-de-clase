@@ -12,4 +12,5 @@
 | Rafael Laverde |X|X|X|X|
 | Gonzalo Pena-Castellanos |X|X|X|X|
 | Juan David Orjuela |X|||X|
+|Sebastián Valencia|X||X||
 X=confirmado
