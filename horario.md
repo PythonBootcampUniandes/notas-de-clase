@@ -24,7 +24,7 @@
 :---- | ----- | ---: | 
 9-10 | **Programacion Orientada a Objetos** | Carlos Cordoba
 10     -10:20 | Ejercicio #5  |
-10:20  -10:30 | Solucion Ejercicio #5 | MC Remolina
+10:20  -10:30 | Solucion Ejercicio #5 | Sebastian Franco
 10:30  -11:30 | **Pandas (Estadistica)** | Carlos Cordoba
 11:30  -12:00 | Ejercicio #6 |
 12:00  -1:00 | Almuerzo |
