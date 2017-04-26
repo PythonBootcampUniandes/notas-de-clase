@@ -3,7 +3,7 @@
 | Juan Barbosa | X | X| X |X|
 | Maria Camila Remolina | X |X||X|
 | Jesus Prada |X|X|X|X|
-| Sebastian Franco Ulloa ||X|X|X|
+| Sebastian Franco  ||X|X|X|
 | Christian Poveda |X|X|||
 | German Chaparro |X|X|X|X|
 | Camila García ||X|X|X|
