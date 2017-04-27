@@ -6,7 +6,7 @@ import numpy as np
 from pygame.locals import *
 import pygame.camera as camera
 
-FPS = 60
+FPS = 240
 
 h, w = 480, 640
 size = (w, h)
