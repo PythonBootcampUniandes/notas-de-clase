@@ -20,13 +20,15 @@ def main():
     """
     Rutina principal
     """
-    fps = 1  # 60 fotogramas por segundo
+    alpha = 0
+    fps = 20  # 60 fotogramas por segundo
     finish = False  # El programa no ha finalizado
     pygame.init()  # Se inicializa pygame
 
     files = glob.glob('../img/slideshow/*.jpg')  # Se recuperan todas las imágenes JPEG
     cur_img = 0  # Índice de la imagen actual
-    img = mpimg.imread(files[0])  # Se carga la primera imagen
+    img = mpimg.imread(files[cur_img])  # Se carga la primera imagen
+    next_img = mpimg.imread(files[cur_img + 1])
 
     h, w, c = img.shape  # Se obtienen las dimensiones de la imagen
     screen = pygame.display.set_mode((w, h))  # Se define el tamaño de la ventana
@@ -34,13 +36,19 @@ def main():
 
     clock = pygame.time.Clock()  # Control de fotogramas
     while not finish:  # Mientras no haya finalizado
-        surf = pygame.surfarray.make_surface(np.rot90(img))  # Se carga la imagen a una superficie
+        comp = cv2.addWeighted(img, 1 - alpha, next_img, alpha, 0)
+        surf = pygame.surfarray.make_surface(np.rot90(comp))  # Se carga la imagen a una superficie
         screen.blit(surf, (0, 0))  # Se muestra la superficie en la ventana
         pygame.display.update()  # Se muestra la imagen en pantalla
         clock.tick(fps)  # Cuenta de fotogramas
-
-        cur_img = (cur_img + 1) % len(files)  # Se aumenta el índice
-        img = mpimg.imread(files[cur_img])  # Se carga la siguiente imagen
+        alpha = alpha + 0.1
+        print(alpha)
+        if alpha > 1:
+            print("?")
+            alpha = 0
+            cur_img = (cur_img + 1) % len(files)  # Se aumenta el índice
+            img = mpimg.imread(files[cur_img])  # Se carga la siguiente imagen
+            next_img = mpimg.imread(files[(cur_img + 1) % len(files)])
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:  # Si el usuario cierra la ventana
