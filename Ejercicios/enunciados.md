@@ -18,7 +18,7 @@ Vida](https://es.wikipedia.org/wiki/Flor_de_la_Vida).
 
 ## Tarea 1
 
-Consideren un pueblo con 50 habitantes y 100 casas.
+Consideren un pueblo con 80 habitantes y 100 casas.
 Las casas se distribuyen en una cuadricula de 10 por 10. 
 Hay 25 habitantes de color verde y 25 habitantes de color rojo.
 Vamos a simular un proceso de migracion dentro de la ciudad.
