@@ -9,7 +9,7 @@
 11:30  -12:00 | Ejercicio #2 |
 12:00  -1:00 | Almuerzo |
 1:00  -1:10 | Solucion Ejercicio #2 | Juan Barbosa
-1:10  -2:00 | **Clases ** | Carlos Cordoba
+1:10  -2:00 | ** Clases ** | Carlos Cordoba
 2:00    - 2:30 | Ejercicio #3 |
 2:30    -2:40 | Solucion Ejercicio #3 | MC Remolina
 2:40    -3:00 | Receso |
