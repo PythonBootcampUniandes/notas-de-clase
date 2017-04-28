@@ -2,14 +2,14 @@
 
  Hora |  Que | Quien 
 :---- | ----- | ---: | 
-9-10 | **Python Basico** | Carlos Cordoba
+9-10 | **Introduccion a Python** | Carlos Cordoba
 10     -10:20 | Ejercicio #1  |
 10:20  -10:30 | Solucion Ejercicio #1 | MC Remolina
-10:30  -11:30 | **Estructuras de Datos** | Jaime Forero
+10:30  -11:30 | **Funciones y Estructuras de Control** | Jaime Forero
 11:30  -12:00 | Ejercicio #2 |
 12:00  -1:00 | Almuerzo |
 1:00  -1:10 | Solucion Ejercicio #2 | Juan Barbosa
-1:10  -2:00 | **Funciones y Modulos** | Carlos Cordoba
+1:10  -2:00 | **Clases y librerias** | Carlos Cordoba
 2:00    - 2:30 | Ejercicio #3 |
 2:30    -2:40 | Solucion Ejercicio #3 | MC Remolina
 2:40    -3:00 | Receso |
@@ -22,14 +22,14 @@
 
  Hora |  Que | Quien 
 :---- | ----- | ---: | 
-9-10 | **Programacion Orientada a Objetos** | Carlos Cordoba
+9-10 | **Pandas (Estadistica)** | Carlos Cordoba
 10     -10:20 | Ejercicio #5  |
 10:20  -10:30 | Solucion Ejercicio #5 | Sebastian Franco
-10:30  -11:30 | **Pandas (Estadistica)** | Carlos Cordoba
+10:30  -11:30 | **Scikit Learn (Machine Learning)** | Jaime Forero
 11:30  -12:00 | Ejercicio #6 |
 12:00  -1:00 | Almuerzo |
 1:00  -1:10 | Solucion Ejercicio #6 | Juan Barbosa
-1:10  -2:00 | **Scikit Learn (Machine Learning)** | Jaime Forero
+1:10  -2:00 | **Simulacion de Sistemas Fisicos** | Jaime Forero/Carlos Cordoba
 2:00    - 2:30 | Ejercicio #7 |
 2:30    -2:40 | Solucion Ejercicio #7 | MC Remolina
 2:40    -3:00 | Receso |
@@ -38,3 +38,31 @@
 4:30    -4:40 | Solucion Ejercicio #8 | Edgar Margffoy
 4:40    -5:00 | Cierre | Jaime Forero
 
+# Programa
+## Introducción a Python
+
+* [01. Numeros y listas](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Introduccion/01.%20Numeros%20y%20listas.ipynb)
+* [02. Cadenas, tuplas y diccionarios](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Introduccion/02.%20Cadenas%2C%20tuplas%20y%20diccionarios.ipynb)
+
+## Funciones y Estructuras de Control
+* [03. Funciones](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Introduccion/03.%20Funciones.ipynb)
+* [04. Estructuras de Control](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Introduccion/04.%20Estructuras%20de%20Control.ipynb)
+* [06. Importar librerias](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Introduccion/06.%20Importar%20librerias.ipynb)
+
+## Clases 
+* [05. Clases](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Introduccion/05.%20Clases.ipynb)
+
+
+
+## Numpy y Matplotlib
+
+* [01. Numpy](http://nbviewer.jupyter.org/github/ccordoba12/curso-python/blob/master/Modulos%20cientificos/01.%20Numpy.ipynb)
+* [02. Matplotlib](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Modulos%20cientificos/02.%20Matplotlib.ipynb)
+
+## Pandas
+* [03. Pandas](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Modulos%20cientificos/Pandas/03.%20Pandas.ipynb)
+  * [Exercises 1](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Modulos%20cientificos/Pandas/Exercises-1.ipynb)
+  * [Exercises 2](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Modulos%20cientificos/Pandas/Exercises-2.ipynb)
+  * [Exercises 3](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Modulos%20cientificos/Pandas/Exercises-3.ipynb)
+  * [Exercises 4](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Modulos%20cientificos/Pandas/Exercises-4.ipynb)
+* [04. Otros módulos](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Modulos%20cientificos/04.%20Otros modulos.ipynb)
