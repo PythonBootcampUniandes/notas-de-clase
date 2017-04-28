@@ -33,7 +33,7 @@
 2:00    - 2:30 | Ejercicio #7 |
 2:30    -2:40 | Solucion Ejercicio #7 | MC Remolina
 2:40    -3:00 | Receso |
-3:00    -4:00 | **OpenCV (Vision Artifical)** | Edgar Margffoy
+3:00    -4:00 | **OpenCV (Vision Artificial)** | Edgar Margffoy
 4:00    -4:30 | Ejercicio #8  |
 4:30    -4:40 | Solucion Ejercicio #8 | Edgar Margffoy
 4:40    -5:00 | Cierre | Jaime Forero
