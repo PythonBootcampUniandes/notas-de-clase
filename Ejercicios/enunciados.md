@@ -1,6 +1,6 @@
 
 
-##Ejercicio 2
+## Ejercicio 2
 
 Escriba un código que lea el archivo `hamlet.txt` y encuentre las
 `n_palabras` palabras de mas de `n_letras` que mas se repiten en el
