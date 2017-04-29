@@ -5,7 +5,7 @@
 | Jesus Prada |X|X|X|X|
 | Sebastian Franco  ||X|X|X|
 | Christian Poveda |X|X|||
-| German Chaparro |X|X|X|X|
+| German Chaparro |X|X||X|
 | Camila García ||X|X|X|
 | Stephannie Jiménez|||X||
 | Sergio Hernandez |X|X|X|X|
