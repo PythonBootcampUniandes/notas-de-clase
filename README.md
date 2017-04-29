@@ -1,34 +1,73 @@
-# Curso de programación y modelación en Python
+# Primer Python bootcamp Uniandes
 
-* **Autor**: Carlos Córdoba
 * **Licencia**: Creative Commons de [Atribución - No Comercial - Compartir Igual](http://creativecommons.org/licenses/by-nc-sa/2.5/co/)
+
+
+## Dia 1 - Abril 29 (Sabado) ###
+
+ Hora |  Que | Quien 
+:---- | ----- | ---: | 
+9-10 | **Introduccion a Python** | Carlos Cordoba
+10     -10:20 | Ejercicio #1  |
+10:20  -10:30 | Solucion Ejercicio #1 | MC Remolina
+10:30  -11:30 | **Funciones y Estructuras de Control** | Jaime Forero
+11:30  -12:00 | Ejercicio #2 |
+12:00  -1:00 | Almuerzo |
+1:00  -1:10 | Solucion Ejercicio #2 | Juan Barbosa
+1:10  -2:00 | **Clases** | Carlos Cordoba
+2:00    - 2:30 | Ejercicio #3 |
+2:30    -2:40 | Solucion Ejercicio #3 | MC Remolina
+2:40    -3:00 | Receso |
+3:00    -4:00 | **Numpy (arrays)/matplotlib (graficas basicas)** | Jaime Forero
+4:00    -4:30 | Ejercicio #4  |
+4:30    -4:40 | Solucion Ejercicio 45 | Edgar Margffoy
+4:40          | Empieza Tarea #1|
+
+## Dia 2 - Abril 30 (Domingo) ###
+
+ Hora |  Que | Quien 
+:---- | ----- | ---: | 
+9-10 | **Pandas (Estadistica)** | Carlos Cordoba
+10     -10:20 | Ejercicio #5  |
+10:20  -10:30 | Solucion Ejercicio #5 | Sebastian Franco
+10:30  -11:30 | **Scikit Learn (Machine Learning)** | Jaime Forero
+11:30  -12:00 | Ejercicio #6 |
+12:00  -1:00 | Almuerzo |
+1:00  -1:10 | Solucion Ejercicio #6 | Juan Barbosa
+1:10  -2:00 | **Simulacion de Sistemas Fisicos** | Jaime Forero/Carlos Cordoba
+2:00    - 2:30 | Ejercicio #7 |
+2:30    -2:40 | Solucion Ejercicio #7 | MC Remolina
+2:40    -3:00 | Receso |
+3:00    -4:00 | **OpenCV (Vision Artificial)** | Edgar Margffoy
+4:00    -4:30 | Ejercicio #8  |
+4:30    -4:40 | Solucion Ejercicio #8 | Edgar Margffoy
+4:40    -5:00 | Cierre | Jaime Forero
+
+# Programa
 
 ## Introducción a Python
 
 * [01. Numeros y listas](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Introduccion/01.%20Numeros%20y%20listas.ipynb)
 * [02. Cadenas, tuplas y diccionarios](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Introduccion/02.%20Cadenas%2C%20tuplas%20y%20diccionarios.ipynb)
+
+## Funciones y Estructuras de Control
 * [03. Funciones](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Introduccion/03.%20Funciones.ipynb)
 * [04. Estructuras de Control](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Introduccion/04.%20Estructuras%20de%20Control.ipynb)
-* [05. Clases](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Introduccion/05.%20Clases.ipynb)
 * [06. Importar librerias](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Introduccion/06.%20Importar%20librerias.ipynb)
-* [07. Proyectos](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Introduccion/07.%20Proyectos.ipynb)
 
-## Módulos científicos
+## Clases 
+* [05. Clases](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Introduccion/05.%20Clases.ipynb)
 
-* [01. Numpy](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Modulos%20cientificos/01.%20Numpy.ipynb)
+
+
+## Numpy y Matplotlib
+
+* [01. Numpy](http://nbviewer.jupyter.org/github/ccordoba12/curso-python/blob/master/Modulos%20cientificos/01.%20Numpy.ipynb)
 * [02. Matplotlib](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Modulos%20cientificos/02.%20Matplotlib.ipynb)
+
+## Pandas
 * [03. Pandas](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Modulos%20cientificos/Pandas/03.%20Pandas.ipynb)
-  - [Exercises 1](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Modulos%20cientificos/Pandas/Exercises-1.ipynb)
-  - [Exercises 2](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Modulos%20cientificos/Pandas/Exercises-2.ipynb)
-  - [Exercises 3](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Modulos%20cientificos/Pandas/Exercises-3.ipynb)
-  - [Exercises 4](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Modulos%20cientificos/Pandas/Exercises-4.ipynb)
-* [04. Otros módulos](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Modulos%20cientificos/04.%20Otros modulos.ipynb)
-
-## Sistemas dinámicos
-
-* [01. Algo de Fisica](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Sistemas%20Dinamicos/01.%20Algo%20de%20Fisica.ipynb)
-* [02. Simulando la caida de una bola](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Sistemas%20Dinamicos/02.%20Simulando%20la%20caida%20de%20una%20bola.ipynb)
-* [03. Graficas](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Sistemas%20Dinamicos/03.%20Graficas.ipynb)
-* [04. Una simulacion mas realista](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Sistemas%20Dinamicos/04.%20Una%20simulacion%20mas%20realista.ipynb)
-* [05. Una simulacion mas precisa](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Sistemas%20Dinamicos/05.%20Una%20simulacion%20mas%20precisa.ipynb)
-* [06. Movimiento en dos dimensiones](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Sistemas%20Dinamicos/06.%20Movimiento%20en%20dos%20dimensiones.ipynb)
+  * [Exercises 1](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Modulos%20cientificos/Pandas/Exercises-1.ipynb)
+  * [Exercises 2](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Modulos%20cientificos/Pandas/Exercises-2.ipynb)
+  * [Exercises 3](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Modulos%20cientificos/Pandas/Exercises-3.ipynb)
+  * [Exercises 4](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Modulos%20cientificos/Pandas/Exercises-4.ipynb)
