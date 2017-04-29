@@ -7,9 +7,8 @@
 
  Hora |  Que | Quien 
 :---- | ----- | ---: | 
-9-10 | **Introduccion a Python** | Carlos Cordoba
-10     -10:20 | Ejercicio #1  |
-10:20  -10:30 | Solucion Ejercicio #1 | MC Remolina
+9-10:20 | **Introduccion a Python** | Carlos Cordoba
+10:20  -10:30 | Solucion Ejercicios #1 | MC Remolina
 10:30  -11:30 | **Funciones y Estructuras de Control** | Jaime Forero
 11:30  -12:00 | Ejercicio #2 |
 12:00  -1:00 | Almuerzo |
