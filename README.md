@@ -51,9 +51,10 @@
 * [02. Cadenas, tuplas y diccionarios](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Introduccion/02.%20Cadenas%2C%20tuplas%20y%20diccionarios.ipynb)
 
 ## Funciones y Estructuras de Control
-* [03. Funciones](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Introduccion/03.%20Funciones.ipynb)
-* [04. Estructuras de Control](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Introduccion/04.%20Estructuras%20de%20Control.ipynb)
-* [06. Importar librerias](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Introduccion/06.%20Importar%20librerias.ipynb)
+* [Funciones](https://github.com/PythonBootcampUniandes/notas-de-clase/blob/master/Introduccion/03.%20Funciones.ipynb)
+* [Estructuras de Control](https://github.com/PythonBootcampUniandes/notas-de-clase/blob/master/Introduccion/04.%20Estructuras%20de%20Control.ipynb)
+* [Importar librerias](https://github.com/PythonBootcampUniandes/notas-de-clase/blob/master/Introduccion/06.%20Importar%20librerias.ipynb)
+* [Leer archivos](https://github.com/PythonBootcampUniandes/notas-de-clase/blob/master/Introduccion/LeerArchivos.ipynb)
 
 ## Clases 
 * [05. Clases](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Introduccion/05.%20Clases.ipynb)
