@@ -59,11 +59,10 @@
 * [05. Clases](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Introduccion/05.%20Clases.ipynb)
 
 
-
 ## Numpy y Matplotlib
 
 * [01. Numpy](http://nbviewer.jupyter.org/github/ccordoba12/curso-python/blob/master/Modulos%20cientificos/01.%20Numpy.ipynb)
-* [02. Matplotlib](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Modulos%20cientificos/02.%20Matplotlib.ipynb)
+* [02. Matplotlib](https://github.com/PythonBootcampUniandes/notas-de-clase/blob/master/Modulos%20cientificos/MatplotlibBasico.ipynb)
 
 ## Pandas
 * [03. Pandas](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Modulos%20cientificos/Pandas/03.%20Pandas.ipynb)
