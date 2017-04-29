@@ -2,7 +2,7 @@
 
 ## Ejercicio 2
 
-Escriba un código que lea el archivo `hamlet.txt` y encuentre las
+* Escriba un código que lea el archivo `hamlet.txt` y encuentre las
 `n_palabras` palabras de mas de `n_letras` que mas se repiten en el
 texto. 
 Por ejemplo, si `n_palabras=5` y `n_letras=3` el codigo debe encontrar
@@ -11,8 +11,15 @@ texto.
 
 ## Ejercicio 4
 
-Escriba un codigo que dibuje [La Flor de la
+* Escriba un codigo que dibuje [La Flor de la
 Vida](https://es.wikipedia.org/wiki/Flor_de_la_Vida).  
+* El archivo `monthrg.dat` tiene 5 columnas. 
+   La primera columna corresponde a un año, la segunda a un mes
+   y la cuarta al numero promedio de manchas solares ese mes.
+   Escriba un programa que lea el archivo y luego grafique el numero de manchas solares
+   en función del tiempo medido en años.
+   La gráfica debe empezar en el mes de su nacimiento y debe ir hasta
+   el último dato disponible en el archivo.
 
 ## Ejercicio 7
 
