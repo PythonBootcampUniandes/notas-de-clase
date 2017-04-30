@@ -70,3 +70,6 @@
   * [Exercises 2](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Modulos%20cientificos/Pandas/Exercises-2.ipynb)
   * [Exercises 3](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Modulos%20cientificos/Pandas/Exercises-3.ipynb)
   * [Exercises 4](http://nbviewer.ipython.org/github/ccordoba12/curso-python/blob/master/Modulos%20cientificos/Pandas/Exercises-4.ipynb)
+  
+## Machine Learning (scikit-learn)
+* [Intro a Machine Learning con scikit-learn y seaborn](https://github.com/ComputoCienciasUniandes/MetodosComputacionalesAvanzados/tree/master/weeks/12/code)
