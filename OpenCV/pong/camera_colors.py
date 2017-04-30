@@ -5,7 +5,6 @@ import cv2
 import pygame
 import numpy as np
 from pygame.locals import *
-import pygame.camera as camera
 
 FPS = 60
 
@@ -30,27 +29,36 @@ def threshold_object_color(img, lower_color, upper_color):
 
 def main():
     # Definir rangos de colores
+    hsv_color = np.array([[[12, 255, 255]]])
+    h, s, v = hsv_color[0, 0]
+
+    lower_color = np.array([[[-10 + h, 230, 100]]])
+    upper_color = hsv_color + np.array([[[0 + h, 255, 255]]])
+
+    lower_color = lower_color[:, 0]
+    upper_color = upper_color[:, 0]
 
     pygame.init()
     screen = pygame.display.set_mode(size)
     pygame.display.set_caption('Camera Pong')
 
-    camera.init()
-    c = camera.Camera(camera.list_cameras()[0], size)
-    c.start()
+    # camera.init()
+    # c = camera.Camera(camera.list_cameras()[0], size)
+    # c.start()
 
     finish = False
     clock = pygame.time.Clock()
+    cap = cv2.VideoCapture(0)
 
     while not finish:
-        surf = c.get_image()
-        img = np.flipud(pygame.surfarray.pixels3d(surf))
-        img = transposeImg(img)
+        _, img = cap.read()
+        img = np.fliplr(img)
+        img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
         hsv = cv2.cvtColor(img, cv2.COLOR_RGB2HSV)
 
         c_x, c_y = threshold_object_color(hsv,
-                                          lower_color,
-                                          upper_color)
+                                                lower_color,
+                                                upper_color)
         surf = pygame.surfarray.make_surface(np.flipud(
             np.flipud(transposeImg(img))))
         if (c_x, c_y) != (None, None):
@@ -62,7 +70,7 @@ def main():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 finish = True
-    c.stop()
+    # c.stop()
 
 
 if __name__ == '__main__':

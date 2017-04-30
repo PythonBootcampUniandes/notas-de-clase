@@ -6,7 +6,7 @@ import cv2
 import pygame
 import numpy as np
 from pygame.locals import *
-import pygame.camera as Camera
+# import pygame.camera as Camera
 
 
 h = 480
@@ -20,9 +20,9 @@ computer = True
 finish = False
 pygame.init()
 
-Camera.init()
-c = Camera.Camera(Camera.list_cameras()[0], size)
-c.start()
+# Camera.init()
+# c = Camera.Camera(Camera.list_cameras()[0], size)
+# c.start()
 
 screen = pygame.display.set_mode(size)
 pygame.display.set_caption('Pong')
@@ -219,10 +219,12 @@ enemy = Enemy()
 def draw_pong(threshold_func):
     global finish
     c1_x, c1_y = (0, 0)
+    cap = cv2.VideoCapture(0)
     while not finish:
-        surf = c.get_image()
-        img = np.flipud(pygame.surfarray.pixels3d(surf))
-        img = transposeImg(img)
+        # surf = c.get_image()
+        _, img = cap.read()
+        img = np.fliplr(img)
+        img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
         hsv = cv2.cvtColor(img, cv2.COLOR_RGB2HSV)
         c2_x, c2_y = threshold_func(hsv)
         surf = pygame.surfarray.make_surface(
