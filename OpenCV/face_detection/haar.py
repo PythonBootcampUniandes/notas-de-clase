@@ -5,7 +5,7 @@ import cv2
 import pygame
 import numpy as np
 from pygame.locals import *
-import pygame.camera as camera
+# import pygame.camera as camera
 
 FPS = 60
 
@@ -35,17 +35,21 @@ def main():
     screen = pygame.display.set_mode(size)
     pygame.display.set_caption('Haar cascades')
 
-    camera.init()
-    c = camera.Camera(camera.list_cameras()[0], size)
-    c.start()
+    # camera.init()
+    # c = camera.Camera(camera.list_cameras()[0], size)
+    # c.start()
 
     finish = False
     clock = pygame.time.Clock()
 
     while not finish:
-        surf = c.get_image()
-        img = np.flipud(pygame.surfarray.pixels3d(surf))
-        img = transposeImg(img)
+        # surf = c.get_image()
+        # img = np.flipud(pygame.surfarray.pixels3d(surf))
+        # img = transposeImg(img)
+        _, img = cap.read()
+        # img = np.fliplr(img)
+        img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+
         img = face_detection(img)
         surf = pygame.surfarray.make_surface(np.flipud(
             np.flipud(transposeImg(img))))
@@ -56,7 +60,7 @@ def main():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 finish = True
-    c.stop()
+    # c.stop()
 
 
 if __name__ == '__main__':

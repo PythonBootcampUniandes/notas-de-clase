@@ -4,7 +4,7 @@ import cv2
 import pygame
 import numpy as np
 from pygame.locals import *
-import pygame.camera as camera
+# import pygame.camera as camera
 
 FPS = 60
 
@@ -23,6 +23,11 @@ images = []  # Calibration images
 num_images = 10  # Required number of calibration images
 
 
+def transposeImg(img):
+    r, g, b = np.rollaxis(img[..., :3], axis=-1)
+    return np.dstack([r.T, g.T, b.T])
+
+
 def main():
     pygame.init()
     screen = pygame.display.set_mode(size)
@@ -31,10 +36,11 @@ def main():
     ubuntu = pygame.font.match_font('Ubuntu')
     font = pygame.font.Font(ubuntu, 20)
     font.set_bold(True)
+    cap = cv2.VideoCapture(0)
 
-    camera.init()
-    c = camera.Camera(camera.list_cameras()[0], size)
-    c.start()
+    # camera.init()
+    # c = camera.Camera(camera.list_cameras()[0], size)
+    # c.start()
 
     finish = False
     clock = pygame.time.Clock()
@@ -48,15 +54,21 @@ def main():
         textRect.centerx = 60
         textRect.centery = 20
 
-        surf = c.get_image()
-        img = pygame.surfarray.pixels3d(surf)
+        # surf = c.get_image()
+        # img = pygame.surfarray.pixels3d(surf)
+        _, img = cap.read()
+        # img = np.fliplr(img)
+        img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+
         gray = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
-        ret, corners = cv2.findChessboardCorners(gray, (7, 7), None)
+        ret, corners = cv2.findChessboardCorners(gray, (6, 6), None)
         img_gray = np.dstack([gray, gray, gray])
         if ret:
             cv2.cornerSubPix(gray, corners, (12, 12), (-1, -1), criteria)
-            cv2.drawChessboardCorners(img_gray, (7, 7), corners, ret)
-        gray_surf = pygame.surfarray.make_surface(img_gray)
+            cv2.drawChessboardCorners(img_gray, (6, 6), corners, ret)
+        gray_surf = pygame.surfarray.make_surface(
+            np.flipud(np.flipud(transposeImg(img_gray))))
+        # gray_surf = pygame.surfarray.make_surface(img_gray)
         screen.blit(gray_surf, (0, 0))
         screen.blit(text, textRect)
         clock.tick(FPS)
@@ -72,7 +84,7 @@ def main():
                 imgpoints.append(corners)
                 total_images += 1
 
-    c.stop()
+    # c.stop()
 
     print("Calibrating camera....")
     ret, mtx, dist, rvecs, tvecs = cv2.calibrateCamera(objpoints, imgpoints,
