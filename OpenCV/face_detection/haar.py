@@ -41,6 +41,7 @@ def main():
 
     finish = False
     clock = pygame.time.Clock()
+    cap = cv2.VideoCapture(0)
 
     while not finish:
         # surf = c.get_image()
