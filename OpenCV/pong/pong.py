@@ -217,15 +217,6 @@ enemy = Enemy()
 
 
 def draw_pong(threshold_func):
-
-    # hsv_color = np.array([[[12, 255, 255]]])
-    # h, s, v = hsv_color[0, 0]
-
-    # lower_color = np.array([[[-10 + h, 230, 100]]])
-    # upper_color = hsv_color + np.array([[[0 + h, 255, 255]]])
-
-    # lower_color = lower_color[:, 0]
-    # upper_color = upper_color[:, 0]
     global finish
     c1_x, c1_y = (0, 0)
     while not finish:
