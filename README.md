@@ -30,7 +30,7 @@
 11:30  -11:45 | Soluciones Ejercicio #5 | Sebastian Franco
 11:45  -1:00 | Almuerzo |
 1:00  - 2:30 | **Scikit Learn (Machine Learning)** | Jaime Forero
-2:30  - 2:30 | Solucion Ejercicio #6 | Juan Barbosa
+2:30  - 3:00 | Solucion Ejercicio #6 | Juan Barbosa
 3:00    - 4:30 | **OpenCV (Vision Artificial)** | Edgar Margffoy
 4:30    -4:40 | Solucion Ejercicio #8 | Edgar Margffoy
 4:40    -5:00 | Cierre | 
